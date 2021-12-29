@@ -1,6 +1,6 @@
 # This is our first library for trino.
 
-First of all, this library is made based on [Trino library](https://github.com/trinodb/trino-python-client).
+First of all, this library is made based on [Trino library](https://github.com/trinodb/trino-python-client), this will works only for Datalakes that don't need authentication.
 
 # Goal
 
