@@ -4,8 +4,7 @@ from getpass import getpass
 # Opening connection with Datalake
 def datalake_connection(auth, trino_username, trino_catalog, trino_schema, password=None):
     password = getpass()
-    print(password)
-
+    
     if password != '': 
         conn = trino.dbapi.connect(
             host='localhost',
